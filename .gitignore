@@ -1,0 +1,4 @@
+yarn-error.log
+.node-persist
+# Project exclude paths
+/node_modules/

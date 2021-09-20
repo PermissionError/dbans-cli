@@ -1,0 +1,27 @@
+{
+  "name": "dbans-cli",
+  "description": "A collection of CLI utilities for Discord Bans",
+  "version": "1.0.1",
+  "main": "src/cli.js",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/PermissionError/dbans-cli",
+  "author": "Ray Ma",
+  "keywords": [
+    "discord",
+    "dbans",
+    "cli"
+  ],
+  "bin": {
+    "dbans": "src/cli.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "bufferutil": "^4.0.3",
+    "commander": "^8.2.0",
+    "discord-api-types": "^0.23.1",
+    "node-persist": "^3.1.0",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  },
+  "type": "module"
+}
