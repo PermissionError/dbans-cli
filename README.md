@@ -8,7 +8,7 @@ A [Discord Bot Token](https://discord.dev)
 ### ~~Using the Release Convenience Binaries~~
 ~~Download the appropriate executable for your platform from [GitHub Releases](https://github.com/PermissionError/dbans-cli/releases).~~ **The convenience binaries are unable to be produced due to tooling issues.**
 ### With Node Package Managers
-`npm i dbans-cli -g` or `yarn global add dbans-cli`
+`npm i dbans-cli -g` or `yarn global add dbans-cli`  
 Note: Yarn may require you to `chmod +x` the executable file. Therefore, it is recommended to install DBans with NPM ~~or use the convenience binaries provided with releases~~.
 
 ## Usage
