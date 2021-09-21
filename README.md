@@ -16,6 +16,8 @@ First, use `dbans token [token]` to set the bot token. It must have the `BAN_MEM
 
 This token will be persisted in your local storage. You can view it at any time with `dbans token` or replace it.
 
+**IMPORTANT: `dbans export` and `dbans import` will not include the ban reasons. Therefore, use `dbans transfer` if you wish to preserve ban reasons when transferring bans.**
+
 ### Exporting: `dbans export <guildId> [outputFile]`
 Exports all bans from the given guild to a JSON array. If `outputFile` is not specified, the array will be printed to stdout.  
 Sample output: `["00000000000000000", "00000000000000001"]`
